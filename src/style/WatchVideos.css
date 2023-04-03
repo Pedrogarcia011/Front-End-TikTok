@@ -199,3 +199,29 @@ margin: auto;
 }
 
 }
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .conteudo-video {
+    background-color: rgba(248, 248, 248, 0.842);
+    display: flex;
+    color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+    max-width: 35vh;
+    flex-direction: column;
+    height: 80vh;
+    padding: 28px 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px  rgba(16, 65, 172, 0.856) ;
+    overflow: hidden;
+    font-size: 16px;
+  }
+
+  .title-video {
+    margin-bottom: 25px;
+    font-weight: 700;
+    width: 42vh;
+    font-size: 36px;
+    color: #000000;
+  }
+}

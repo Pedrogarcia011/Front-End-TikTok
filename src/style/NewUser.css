@@ -637,3 +637,148 @@
           font-weight: bold;
       }
   }
+
+  @media screen and (min-width: 1300px) and (max-width: 3000px) {
+    .div-pai {
+        background-color: rgb(16, 65, 172);
+        color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-filho {
+        background-color: rgba(16, 65, 172, 0.842);
+        display: block;
+        margin-top: 14px;
+        margin-bottom: 18px;
+        justify-content: center;
+        max-width: 60vh;
+        height: 90vh;
+        padding: 30px 50px;
+        border-radius: 10px;
+    }
+
+    .inputs {
+        background-color: rgb(249, 249, 249);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60vh;
+        min-height: 87vh;
+    }
+
+    .input-registray-name{
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .input-registray-email {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .input-registray-cpf {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .input-whats {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .codigo-valid {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .senha {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(145, 145, 145);
+        background: none;
+        padding-left: 5px;
+    }
+
+    .input-terms {
+        width: 55vh;
+        height: 4vh;
+        margin-top: 6px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .alert-text {
+        font-size: 11px;
+        text-align: center;
+        font-size:11px;
+        align-items: center;
+        margin-bottom: 4px;
+      }
+
+      .button-cadastrar {
+        width: 55vh;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border: none;
+        background: rgb(251, 43, 91);
+        color: white;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    .input-terms {
+        width: 60vh;
+        height: 4vh;
+        margin-top: 6px;
+        font-size: 12px;
+        padding: 5px;
+    }
+  }

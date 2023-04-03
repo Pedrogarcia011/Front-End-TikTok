@@ -171,3 +171,64 @@
     width: 280px;
   }
 }
+
+@media screen and (min-width: 1300px) and (max-width: 3000px) {
+  .body-main-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 65, 172, 0.842);
+    background-image: url('../images/backgroundImg.jpeg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-main-page {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vh;
+    height: 80vh;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 2px 1px rgba(0, 0, 0, 0.507);
+    overflow: hidden;
+  }
+
+  .buttons-main-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+
+  .trocar-pontos-main-page {
+    background-color: black;
+    border-radius: 11px;
+    margin-bottom: -3px;
+    height: 33px;
+    width: 60vh;
+  }
+  
+  .compartilhar-main-page {
+    background-color: black;
+    border-radius: 11px;
+    margin-bottom: -4px;
+    height: 33px;
+    width: 60vh;
+  }
+  
+  .assistir-main-page {
+    background-image: linear-gradient(to right, black, blue);
+    border-radius: 11px;
+    width: 60vh;
+  }
+
+  .imgNullFund {
+    margin-top: 40px;
+  }
+}
